@@ -21,6 +21,7 @@ Reproduzir o comportamento da [página de exemplo](#página-de-exemplo).
 1. Erros na obtenção dos dados para a construção da página de detalhes devem gerar uma mensagem na tela 
 1. O estilo das páginas e cartões é de livre escolha, use a criatividade e garanta que não é uma cópia 😜
 1. Sua página deve usar fontes personalizadas  :unicorn:
+1. É obrigatório usar um **favicon** :octocat:
 1. O trabalho deve ser publicado no githubPages com acesso público
    - não é obrigatório usar URL personalizada, mas se quiser pode 😎
 1. Responsividade:
