@@ -30,7 +30,7 @@ Reproduzir o comportamento da [página de exemplo](#página-de-exemplo).
       - vertical até 768px;
    - Container de atletas da **Página Principal**:
       - uma colunas até 768px;
-      - duas colunas até 1024px;
+      - três colunas até 1024px;
       - quatro colunas até de 1300px;
       - cinco colunas depois de 1300px
       - largura máxima da lista de 1400px;
