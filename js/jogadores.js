@@ -50,7 +50,7 @@ function cardjogador(jogador, target) {
     const container = document.createElement("div")
     container.className = "card"
     container.addEventListener("click", () =>{
-    window.location.href = "detalhes/detalhes.html?id=" + jogador.id
+    window.location.href = "/p2-desweb-2024-2/detalhes/detalhes.html?id=" + jogador.id
     })
     const nome = document.createElement("h1")
     nome.innerHTML = jogador.nome
@@ -62,7 +62,7 @@ function cardjogador(jogador, target) {
     posicao.innerHTML = jogador.posicao
 
     const mais = document.createElement("a")
-    mais.href = 'detalhes/detalhes.html?id=' + jogador.id
+    mais.href = '/p2-desweb-2024-2/detalhes/detalhes.html?id=' + jogador.id
     mais.textContent = 'Informações Completas'
 
     container.appendChild(nome)
