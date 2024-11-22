@@ -14,7 +14,7 @@ h1,h2,p,a{
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: rgb(240, 240, 240);
+    background-color: gray;
     color: black;
     border: 2px solid gray;
     padding: 10px 20px;
