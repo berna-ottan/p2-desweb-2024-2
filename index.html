@@ -3,13 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="escudo.png" sizes="16x16">
+  <link rel="icon" type="image/x-icon" href="./img/favicon.ico" sizes="16x16">
   <title>Atletas Botafogo</title>
-  <link rel="stylesheet" href="estilo.css">
-  <script type='module' src="codigo.js"></script>
+  <link rel="stylesheet" href = "index.css">
+  <script type ='module' src = "./autenticacao/autenticacao.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&display=swap" rel="stylesheet">
 </head>
-<body>
-<!-- página com instruções para usar md5 e SHA-1 -->
-<!-- https://pajhome.org.uk/crypt/md5/ -->
+<body id="pagina-login">
+    <div class="container-foto"> 
+      <div id="imagem">
+        <img src="./img/botafogo-login.webp" alt="Botafogo">
+      </div>
+    </div>
+    <div id = "container-index">
+      <h1 id = "titulo">Atletas do Botafogo em 2024-2</h1>
+      <h1 id = "subtitulo">Criado com objetivos exclusivamente didáticos para a disciplina Desenvolvimento Web do Ibmec Rio.</h1>
+      <p id = "aluno"> Aluno: Bernardo</p>
+    </div>
+    <div id = "container-login">
+      <input type="password" id="inputpassword" placeholder="Digite sua senha">
+      <button id = "entrar">Entrar</button>
+      <p class = "login" id = "mensagem"></p>
+      <p id = "senha-mensagem">Efetue login com a senha: BOTAFOGO</p>
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,54 @@
+#imagem{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(0, 0, 0);
+    align-items: center;
+  }
+#container-index{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+#container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+#password {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: #fff; 
+  color: black; 
+  transition: border-color 0.3s; 
+  }
+#entrar:hover {
+    background-color: gray;
+    color: #fff;
+    border-color: rgb(0, 0, 0); 
+  }
+
+#titulo{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-weight: normal;
+  }
+#subtitulo{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-weight: normal;
+  }
+#aluno{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-weight: normal;
+  }
+#senha-mensagem{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-weight: normal;
+  }

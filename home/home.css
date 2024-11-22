@@ -1,0 +1,68 @@
+#container-header{
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+}
+#titulo-header{
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+}
+.btn{
+  background-color: gray;
+  color: black;
+  border: 2px solid gray;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+#pesquisa{
+  background-color: rgb(240, 240, 240);
+  color: black;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+#mais {
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  font-size: 14px;
+}
+#cards {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+@media (max-width: 992px) {
+  #cards {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  #cards {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  #cards {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
