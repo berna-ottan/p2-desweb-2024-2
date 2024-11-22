@@ -46,7 +46,6 @@
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     max-width: 1400px;
-    margin: 2em;
     gap: 16px;
 }
 @media (max-width: 992px) {
