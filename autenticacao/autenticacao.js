@@ -11,7 +11,7 @@ if(document.getElementById('pagina-login')){
 
         if (hex_sha256(entrada + incremento) === target){
             sessionStorage.setItem('logado', '1');
-            window.location.href = '/home/home.html';
+            window.location.href = 'home/home.html';
             mensagem.innerHTML = '';
         }else{
             alert("Senha Incorreta.")
