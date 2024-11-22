@@ -1,12 +1,5 @@
-#container-header{
-    font-family: 'Neuton', serif;
-    font-weight: normal;
-}
-#titulo-header{
-    font-family: 'Neuton', serif;
-    font-weight: normal;
-}
-.btn{
+
+.btn {
   background-color: gray;
   color: black;
   border: 2px solid gray;
@@ -16,7 +9,14 @@
   font-size: 16px;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
-#pesquisa{
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+#pesquisa {
   background-color: rgb(240, 240, 240);
   color: black;
   border: 2px solid gray;
@@ -27,6 +27,7 @@
   font-size: 16px;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+
 #mais {
   display: inline-block;
   background-color: transparent;
@@ -39,25 +40,35 @@
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   font-size: 14px;
 }
-#cards {
-    display: grid;
-    flex-direction: column;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    max-width: 1400px;
+
+#mais:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
 }
 
+/* Estilo para os cards */
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Media queries para responsividade */
 @media (max-width: 992px) {
   #cards {
       grid-template-columns: repeat(3, 1fr);
   }
 }
+
 @media (max-width: 768px) {
   #cards {
       grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (max-width: 576px) {
   #cards {
       grid-template-columns: repeat(1, 1fr);
