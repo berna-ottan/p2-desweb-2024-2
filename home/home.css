@@ -1,3 +1,6 @@
+.body{
+  background-color: rgb(46, 42, 42);
+}
 
 .btn {
   background-color: gray;
@@ -50,13 +53,10 @@
 /* Estilo para os cards */
 #cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
-  max-width: 1400px;
-  margin: 0 auto;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1200px;
 }
 
-/* Media queries para responsividade */
 @media (max-width: 992px) {
   #cards {
       grid-template-columns: repeat(3, 1fr);
